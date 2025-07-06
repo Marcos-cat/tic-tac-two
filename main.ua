@@ -32,7 +32,6 @@ DrawBoard ← (
 Connecting ← (
   ⍜OtherPort(▽⊸±⌵Key~Input)
   Key~Pressed‼@\n SubmitPort
-  ⊸Key~Pressed‼@\s(°&clip Code MyPort)
   Message "Enter code"
   ⊸(Text 100 ℂ250 [100 200] ⊃{Code MyPort|OtherPort})
 )
