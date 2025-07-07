@@ -45,7 +45,7 @@ Playing ← (
 )
 Done ← ⊸⊃(Message ⨬"You lost :(""You won!" Won|DrawBoard)
 
-New I~Net~Start Port:+⚂₁₀₀ 8080
+New I~Net~Start LocalPort:+⚂₁₀₀ 8080
 
 I~Open Size "Tic Tac Two"
 I~Window!°FPS 30
